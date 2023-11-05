@@ -1,0 +1,89 @@
+.Note {
+    border: 1px solid black;
+    width: 350px;
+    height: 300px;
+    padding: 8px;
+    color: white;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete {
+    font-size: 1.5rem;
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+.color {
+    font-size: 1.5rem;
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+.close {
+    font-size: 1.5rem;
+    transition: 0.15s ease;
+    cursor: pointer;
+    color: black;
+}
+.delete:hover {
+    transform: scale(1.15);
+}
+.note-body {
+    height: 250px;
+}
+.note-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+}
+.options {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.date {
+    font-size: 0.9rem;
+    margin-left: 3px;
+}
+.color-choice {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 0 5px;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.choice-btn {
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.pink {
+    background-color: #88615D;
+}
+.green {
+    background: #123321;
+}
+.claret {
+    background: #331512;
+}
+.scaleup {
+    transition: 0.2s ease;
+}
+.scaleup:hover {
+    transform: scale(1.12);
+}

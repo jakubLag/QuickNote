@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+
+.dark-mode {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
+.dark-mode .icon {
+  color: white;
+}
+
+.dark-mode .input-container {
+  width: 380px;
+  border: 1px solid #fff;
+  border-radius: 0.85rem;
+  padding-left: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dark-mode .input-container input {
+  background-color: black;
+  color: white;
+}
+
+.darkmode .icon:hover {
+  color: black;
+}
+
+.dark-mode .input-container .search-toggled {
+  transition: none;
+}
+.dark-mode .input-container .search-toggled:hover {
+  background: none;
+  border: none;
+  transform: scale(1);
+}

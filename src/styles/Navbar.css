@@ -1,0 +1,85 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+.Navbar h1 {
+    font-weight: 800;
+}
+.nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon {
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s ease;
+    border: 2px solid transparent;
+    padding: 3px;
+    cursor: pointer;
+}
+.icon:hover {
+    font-size: 2rem;
+    background: lightgrey;
+    border: 2px solid lightgrey;
+}
+.input-container {
+    width: 380px;
+    border: 1px solid #000;
+    border-radius: 0.85rem;
+    padding-left: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-container input {
+    border: none;
+    width: 90%;
+    outline: none;
+    height: 100%;
+    font-size: 1.25rem;
+}
+.search-toggled {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 431px) {
+    .input-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 230px;
+        background-color: white;
+        margin: 6px 3px 0 0 ;
+    }
+    .search-input {
+        width: 150px;
+        background-color: transparent;
+    }
+    
+    .dark-mode .input-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 190px;
+        background-color: black;
+        margin: 6px 3px 0 0 ;
+
+    }
+    .dark-mode .search-input {
+        width: 120px;
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .input-container {
+        width: 185px;
+    }
+}

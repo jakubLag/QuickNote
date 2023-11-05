@@ -1,0 +1,32 @@
+.NoteList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    padding: 8px;
+}
+.form input {
+    font-size: 1.2rem;
+    padding: 3px;
+    width: 300px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid black;
+}
+.form textarea {
+    width: 300px;
+    font-size: 0.9rem;
+    padding: 5px;
+}
+.form button {
+    width: 300px;
+}

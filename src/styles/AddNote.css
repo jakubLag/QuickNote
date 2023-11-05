@@ -1,0 +1,37 @@
+.AddNote {
+    border: 1px solid black;
+    width: 350px;
+    height: 300px;
+    padding: 8px;
+    color: white;
+    border: 1px solid #123321;
+    background-color: #123321;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.AddNote textarea {
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+}
+.AddNote textarea::placeholder {
+    color: grey;
+}
+.AddNote .note-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    height: 32px;
+}
+.add {
+    font-size: 1.5rem;
+    transition: 0.15s ease;
+    cursor: pointer;
+    color: white;
+}
